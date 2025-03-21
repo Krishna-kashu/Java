@@ -1,0 +1,112 @@
+class Location {
+    public static void main(String Args[]) {
+        String location1 = "Paris";
+        String location2 = "New York";
+        String location3 = "Tokyo";
+        String location4 = "London";
+        String location5 = "Sydney";
+        String location6 = "Dubai";
+        String location7 = "Rome";
+        String location8 = "Berlin";
+        String location9 = "Istanbul";
+        String location10 = "Barcelona";
+        String location11 = "Mumbai";
+        String location12 = "Beijing";
+        String location13 = "Cairo";
+        String location14 = "Moscow";
+        String location15 = "Rio de Janeiro";
+        String location16 = "Bangkok";
+        String location17 = "Singapore";
+        String location18 = "Seoul";
+        String location19 = "Los Angeles";
+        String location20 = "Toronto";
+        String location21 = "Amsterdam";
+        String location22 = "Venice";
+        String location23 = "Cape Town";
+        String location24 = "Lisbon";
+        String location25 = "Athens";
+        String location26 = "Vienna";
+        String location27 = "Prague";
+        String location28 = "Buenos Aires";
+        String location29 = "Havana";
+        String location30 = "Santorini";
+
+        String[] locations = {location1, location2, location3, location4, location5, location6, location7, location8, location9, location10, 
+                              location11, location12, location13, location14, location15, location16, location17, location18, location19, location20, 
+                              location21, location22, location23, location24, location25, location26, location27, location28, location29, location30};
+
+        System.out.println("1st location is : " + locations[0]);
+        System.out.println("2nd location is : " + locations[1]);
+        System.out.println("3rd location is : " + locations[2]);
+        System.out.println("4th location is : " + locations[3]);
+        System.out.println("5th location is : " + locations[4]);
+        System.out.println("6th location is : " + locations[5]);
+        System.out.println("7th location is : " + locations[6]);
+        System.out.println("8th location is : " + locations[7]);
+        System.out.println("9th location is : " + locations[8]);
+        System.out.println("10th location is : " + locations[9]);
+        System.out.println("11th location is : " + locations[10]);
+        System.out.println("12th location is : " + locations[11]);
+        System.out.println("13th location is : " + locations[12]);
+        System.out.println("14th location is : " + locations[13]);
+        System.out.println("15th location is : " + locations[14]);
+        System.out.println("16th location is : " + locations[15]);
+        System.out.println("17th location is : " + locations[16]);
+        System.out.println("18th location is : " + locations[17]);
+        System.out.println("19th location is : " + locations[18]);
+        System.out.println("20th location is : " + locations[19]);
+        System.out.println("21st location is : " + locations[20]);
+        System.out.println("22nd location is : " + locations[21]);
+        System.out.println("23rd location is : " + locations[22]);
+        System.out.println("24th location is : " + locations[23]);
+        System.out.println("25th location is : " + locations[24]);
+        System.out.println("26th location is : " + locations[25]);
+        System.out.println("27th location is : " + locations[26]);
+        System.out.println("28th location is : " + locations[27]);
+        System.out.println("29th location is : " + locations[28]);
+        System.out.println("30th location is : " + locations[29]);
+
+        locations[0] = "Bali";
+        locations[1] = "Kyoto";
+        locations[2] = "Maldives";
+        locations[13] = "Edinburgh";
+        locations[16] = "Zurich";
+        locations[17] = "Florence";
+        locations[18] = "Helsinki";
+        locations[21] = "Reykjavik";
+        locations[24] = "Dubrovnik";
+        locations[29] = "Marrakech";
+
+        System.out.println("\nUpdated locations:");
+        System.out.println("1st location is : " + locations[0]);
+        System.out.println("2nd location is : " + locations[1]);
+        System.out.println("3rd location is : " + locations[2]);
+        System.out.println("4th location is : " + locations[3]);
+        System.out.println("5th location is : " + locations[4]);
+        System.out.println("6th location is : " + locations[5]);
+        System.out.println("7th location is : " + locations[6]);
+        System.out.println("8th location is : " + locations[7]);
+        System.out.println("9th location is : " + locations[8]);
+        System.out.println("10th location is : " + locations[9]);
+        System.out.println("11th location is : " + locations[10]);
+        System.out.println("12th location is : " + locations[11]);
+        System.out.println("13th location is : " + locations[12]);
+        System.out.println("14th location is : " + locations[13]);
+        System.out.println("15th location is : " + locations[14]);
+        System.out.println("16th location is : " + locations[15]);
+        System.out.println("17th location is : " + locations[16]);
+        System.out.println("18th location is : " + locations[17]);
+        System.out.println("19th location is : " + locations[18]);
+        System.out.println("20th location is : " + locations[19]);
+        System.out.println("21st location is : " + locations[20]);
+        System.out.println("22nd location is : " + locations[21]);
+        System.out.println("23rd location is : " + locations[22]);
+        System.out.println("24th location is : " + locations[23]);
+        System.out.println("25th location is : " + locations[24]);
+        System.out.println("26th location is : " + locations[25]);
+        System.out.println("27th location is : " + locations[26]);
+        System.out.println("28th location is : " + locations[27]);
+        System.out.println("29th location is : " + locations[28]);
+        System.out.println("30th location is : " + locations[29]);
+    }
+}
